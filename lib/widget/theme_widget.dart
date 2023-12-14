@@ -8,7 +8,7 @@ class ThemeWidget extends StatefulWidget {
 }
 
 class _ThemeWidgetState extends State<ThemeWidget> {
-  int? selectedRadio;
+  int? selectedRadio = 1;
 
   @override
   Widget build(BuildContext context) {
@@ -55,6 +55,7 @@ class _ThemeWidgetState extends State<ThemeWidget> {
                         ),
                         RadioListTile(
                           key: ValueKey<int>(1),
+                          activeColor: Colors.green,
                           title: Text(
                             'Set Defualt',
                             style: TextStyle(fontSize: 18, color: Colors.white),
@@ -69,6 +70,7 @@ class _ThemeWidgetState extends State<ThemeWidget> {
                         ),
                         RadioListTile(
                           key: ValueKey<int>(2),
+                          activeColor: Colors.green,
                           title: Text(
                             'Light',
                             style: TextStyle(fontSize: 18, color: Colors.white),
@@ -83,6 +85,7 @@ class _ThemeWidgetState extends State<ThemeWidget> {
                         ),
                         RadioListTile(
                           key: ValueKey<int>(3),
+                          activeColor: Colors.green,
                           title: Text(
                             'Dark',
                             style: TextStyle(fontSize: 18, color: Colors.white),

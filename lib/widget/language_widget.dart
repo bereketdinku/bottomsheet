@@ -8,7 +8,7 @@ class LanguageWidget extends StatefulWidget {
 }
 
 class _LanguageWidgetState extends State<LanguageWidget> {
-  int? selectedRadio;
+  int? selectedRadio = 1;
   @override
   Widget build(BuildContext context) {
     final width = MediaQuery.of(context).size.width;
@@ -54,6 +54,7 @@ class _LanguageWidgetState extends State<LanguageWidget> {
                         children: [
                           Radio(
                               value: 1,
+                              activeColor: Colors.green,
                               groupValue: selectedRadio,
                               onChanged: (value) {
                                 setState(() {
@@ -73,6 +74,7 @@ class _LanguageWidgetState extends State<LanguageWidget> {
                         children: [
                           Radio(
                               value: 2,
+                              activeColor: Colors.green,
                               groupValue: selectedRadio,
                               onChanged: (value) {
                                 setState(() {
@@ -92,6 +94,7 @@ class _LanguageWidgetState extends State<LanguageWidget> {
                         children: [
                           Radio(
                               value: 3,
+                              activeColor: Colors.green,
                               groupValue: selectedRadio,
                               onChanged: (value) {
                                 setState(() {
@@ -110,7 +113,8 @@ class _LanguageWidgetState extends State<LanguageWidget> {
                       Row(
                         children: [
                           Radio(
-                              value: 3,
+                              value: 4,
+                              activeColor: Colors.green,
                               groupValue: selectedRadio,
                               onChanged: (value) {
                                 setState(() {
