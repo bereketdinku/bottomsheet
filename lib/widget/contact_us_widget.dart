@@ -34,7 +34,7 @@ class ContactUsWiget extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'Social Media',
+                        'Contact Us',
                         style: TextStyle(
                             fontSize: 22,
                             fontWeight: FontWeight.bold,
