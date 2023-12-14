@@ -26,7 +26,7 @@ class ContactUsWiget extends StatelessWidget {
                 horizontal: width * 0.03,
                 vertical: height * 0.01,
               ),
-              child: Column(
+              child: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [

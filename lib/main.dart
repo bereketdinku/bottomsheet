@@ -29,25 +29,13 @@ class FirstScreen extends StatefulWidget {
 }
 
 class _FirstScreenState extends State<FirstScreen> {
-  int selectedRadio = 1;
-  int _groupValue = 0;
-  String selectedRadioValue = '';
-
-  void handleRadioValueChanged(int value) {
-    setState(() {
-      selectedRadio = value;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
-    final width = MediaQuery.of(context).size.width;
-    final height = MediaQuery.of(context).size.height;
     return Scaffold(
       appBar: AppBar(
         title: const Text('Bottom Sheet'),
       ),
-      body: Column(
+      body: const Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           ThemeWidget(),

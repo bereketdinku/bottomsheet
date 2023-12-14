@@ -39,65 +39,77 @@ class _SocialMediaWidgetState extends State<SocialMediaWidget> {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
+                      const Text(
                         'Social Media',
                         style: TextStyle(
                             fontSize: 22,
                             fontWeight: FontWeight.bold,
                             color: Colors.white),
                       ),
-                      Divider(
+                      const Divider(
                         color: Colors.black,
                         thickness: 1.0,
                       ),
-                      Row(
-                        children: [
-                          Icon(
-                            Icons.facebook_outlined,
-                            size: 35,
-                            color: Colors.blue,
-                          ),
-                          SizedBox(
-                            width: 15,
-                          ),
-                          Text(
-                            'FaceBook',
-                            style: TextStyle(color: Colors.white, fontSize: 18),
-                          )
-                        ],
+                      GestureDetector(
+                        onTap: () {},
+                        child: const Row(
+                          children: [
+                            Icon(
+                              Icons.facebook_outlined,
+                              size: 35,
+                              color: Colors.blue,
+                            ),
+                            SizedBox(
+                              width: 15,
+                            ),
+                            Text(
+                              'FaceBook',
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 18),
+                            )
+                          ],
+                        ),
                       ),
-                      Row(
-                        children: [
-                          Icon(
-                            Icons.telegram_rounded,
-                            size: 35,
-                            color: Colors.blue,
-                          ),
-                          SizedBox(
-                            width: 15,
-                          ),
-                          Text(
-                            'Telegram',
-                            style: TextStyle(fontSize: 18, color: Colors.white),
-                          )
-                        ],
+                      GestureDetector(
+                        onTap: () {},
+                        child: const Row(
+                          children: [
+                            Icon(
+                              Icons.telegram_rounded,
+                              size: 35,
+                              color: Colors.blue,
+                            ),
+                            SizedBox(
+                              width: 15,
+                            ),
+                            Text(
+                              'Telegram',
+                              style:
+                                  TextStyle(fontSize: 18, color: Colors.white),
+                            )
+                          ],
+                        ),
                       ),
-                      Row(
-                        children: [
-                          Icon(
-                            Icons.tiktok_outlined,
-                            size: 35,
-                            color: Colors.blue,
-                          ),
-                          SizedBox(
-                            width: 15,
-                          ),
-                          Text(
-                            'TikTok',
-                            style: TextStyle(fontSize: 18, color: Colors.white),
-                          )
-                        ],
-                      ),
+                      GestureDetector(
+                        onTap: () {},
+                        child: const Row(
+                          children: [
+                            Icon(
+                              Icons.tiktok_outlined,
+                              size: 35,
+                              color: Colors.blue,
+                            ),
+                            SizedBox(
+                              width: 15,
+                            ),
+                            Text(
+                              'TikTok',
+                              style:
+                                  TextStyle(fontSize: 18, color: Colors.white),
+                            )
+                          ],
+                        ),
+                      )
                     ],
                   ),
                 ],

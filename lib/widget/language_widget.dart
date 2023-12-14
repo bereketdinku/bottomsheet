@@ -39,14 +39,14 @@ class _LanguageWidgetState extends State<LanguageWidget> {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
+                      const Text(
                         'Languages',
                         style: TextStyle(
                             fontSize: 22,
                             fontWeight: FontWeight.bold,
                             color: Colors.white),
                       ),
-                      Divider(
+                      const Divider(
                         color: Colors.black,
                         thickness: 1.0,
                       ),
@@ -61,10 +61,10 @@ class _LanguageWidgetState extends State<LanguageWidget> {
                                   selectedRadio = value!;
                                 });
                               }),
-                          SizedBox(
+                          const SizedBox(
                             width: 15,
                           ),
-                          Text(
+                          const Text(
                             'አማረኛ',
                             style: TextStyle(fontSize: 18, color: Colors.white),
                           )
@@ -81,10 +81,10 @@ class _LanguageWidgetState extends State<LanguageWidget> {
                                   selectedRadio = value!;
                                 });
                               }),
-                          SizedBox(
+                          const SizedBox(
                             width: 15,
                           ),
-                          Text(
+                          const Text(
                             'Afaan Oromo',
                             style: TextStyle(fontSize: 18, color: Colors.white),
                           )
@@ -101,10 +101,10 @@ class _LanguageWidgetState extends State<LanguageWidget> {
                                   selectedRadio = value!;
                                 });
                               }),
-                          SizedBox(
+                          const SizedBox(
                             width: 15,
                           ),
-                          Text(
+                          const Text(
                             'ትግርኛ',
                             style: TextStyle(color: Colors.white, fontSize: 18),
                           )
@@ -121,10 +121,10 @@ class _LanguageWidgetState extends State<LanguageWidget> {
                                   selectedRadio = value!;
                                 });
                               }),
-                          SizedBox(
+                          const SizedBox(
                             width: 15,
                           ),
-                          Text(
+                          const Text(
                             'Af-Soomali',
                             style: TextStyle(fontSize: 18, color: Colors.white),
                           )

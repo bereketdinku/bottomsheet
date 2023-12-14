@@ -42,21 +42,21 @@ class _ThemeWidgetState extends State<ThemeWidget> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
+                        const Text(
                           'Theme',
                           style: TextStyle(
                               fontSize: 22,
                               fontWeight: FontWeight.bold,
                               color: Colors.white),
                         ),
-                        Divider(
+                        const Divider(
                           color: Colors.black,
                           thickness: 1.0,
                         ),
                         RadioListTile(
                           key: ValueKey<int>(1),
                           activeColor: Colors.green,
-                          title: Text(
+                          title: const Text(
                             'Set Defualt',
                             style: TextStyle(fontSize: 18, color: Colors.white),
                           ),
@@ -71,7 +71,7 @@ class _ThemeWidgetState extends State<ThemeWidget> {
                         RadioListTile(
                           key: ValueKey<int>(2),
                           activeColor: Colors.green,
-                          title: Text(
+                          title: const Text(
                             'Light',
                             style: TextStyle(fontSize: 18, color: Colors.white),
                           ),
@@ -86,7 +86,7 @@ class _ThemeWidgetState extends State<ThemeWidget> {
                         RadioListTile(
                           key: ValueKey<int>(3),
                           activeColor: Colors.green,
-                          title: Text(
+                          title: const Text(
                             'Dark',
                             style: TextStyle(fontSize: 18, color: Colors.white),
                           ),
